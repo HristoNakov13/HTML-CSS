@@ -1,0 +1,9 @@
+@import url("./fontawesome-free-5.13.0-web/css/all.css");
+
+html {
+    font: 18px/1.5 Helvetica, sans-serif;
+}
+
+.icons {
+    list-style-type: none;
+}
