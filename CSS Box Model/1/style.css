@@ -1,0 +1,9 @@
+body p {
+    width: 200px;
+    background: rgb(64, 224, 208);
+    border: 5px solid;
+    border-radius: 0.6em;
+    padding: 1em 2em;
+    margin: 0 auto;
+    margin-top: 5em;
+}
