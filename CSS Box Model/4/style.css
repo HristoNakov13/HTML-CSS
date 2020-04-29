@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: blanchedalmond;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.gallery li {
+    display: inline-block;
+    width: 48%;
+    border: 0.4rem solid black;
+    padding: 0.8em;
+    margin: 0.5em;
+    
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
