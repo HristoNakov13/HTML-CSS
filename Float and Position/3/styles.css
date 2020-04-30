@@ -1,0 +1,67 @@
+@import url("./fontawesome-free-5.13.0-web/css/all.css");
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+}
+
+.viewport {
+    height: 100vh;
+    background-color: lightblue;
+    position: relative;
+}
+
+.viewport:nth-child(even) {
+    background-color: lightsalmon;
+}
+
+.card {
+    position: absolute;
+    font-size: 3em;
+    top: 50%;
+    left: 50%;
+    width: 12em;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 0.2em;
+}
+
+.card:before {
+    display: block;
+    content: "";
+}
+
+.ar-9x16 {
+    width: 8em;
+}
+
+.card.ar-16x9:before {
+    padding-top: calc((9 / 16) * 100%);
+}
+
+.card.ar-9x16:before {
+    padding-top: calc((16 / 9) * 100%);
+}
+
+.card .media {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.card.landscape img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card.portrait img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.icon {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+}
