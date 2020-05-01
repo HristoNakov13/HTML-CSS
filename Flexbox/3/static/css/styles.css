@@ -1,0 +1,56 @@
+@import url("/static/css/reset.css");
+@import url("/static/css/typography.css");
+
+
+.layout main {
+    display: flex;
+    max-width: 15vw;
+    height: 35rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.letter {
+    display: block;
+    border: 1px solid black;
+    padding: 1em;
+    height: 10%;
+    margin: 0.3em;
+    text-align: center;
+}
+
+.first {
+    order: 1;
+}
+
+.second {
+    order: 2;
+}
+
+.third {
+    order: 3;
+}
+
+.fourth {
+    order: 4;
+}
+
+.fifth {
+    order: 5;
+}
+
+.sixth {
+    order: 6;
+}
+
+.seventh {
+    order: 7;
+}
+
+.eigth {
+    order: 8;
+}
+
+.last {
+    order: 100;
+}

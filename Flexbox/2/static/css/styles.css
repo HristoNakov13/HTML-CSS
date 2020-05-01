@@ -1,0 +1,23 @@
+@import url("/static/css/reset.css");
+@import url("/static/css/typography.css");
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
+
+.layout main {
+    display: flex;
+    max-width: 70vw;
+    margin: 10% auto;
+    justify-content: space-between;
+}
+
+.layout article {
+    flex: 0 0 30%;
+}

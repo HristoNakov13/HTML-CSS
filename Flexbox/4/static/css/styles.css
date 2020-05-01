@@ -1,0 +1,47 @@
+@import url("/static/css/reset.css");
+@import url("/static/css/typography.css");
+
+body {
+    padding: 4em;
+}
+
+.calendar {
+    border: 2px solid black;
+}
+
+.calendar-row {
+    display: flex;
+}
+
+.calendar-row-main {
+    flex: 0 0 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calendar-row-aside {
+    flex: 0 0 20%;
+    text-align: center;
+    padding: 2em 2em;
+    border-left: 2px solid black;
+}
+
+.item.item-label {
+    flex-basis: 100%;
+    padding: 2em;
+    border-bottom: 2px solid black;
+}
+
+.item {
+    padding: 1em;
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+.calendar-row + .calendar-row {
+    border-top: 2px solid #333;
+}
+
+.item.day + .item.day {
+    border-left: 2px solid #333;
+}
