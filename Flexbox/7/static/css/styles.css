@@ -1,0 +1,60 @@
+@import url("/static/css/reset.css");
+@import url("/static/css/typography.css");
+
+.layout {
+    width: 60em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.site-header {
+    width: 100%;
+}
+
+.layout main {
+    width: 75%;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+html {
+    background-color: #CCC;
+}
+
+.site-header {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 3px solid black;
+}
+
+.article-media {
+    border: 4px solid black;
+    border-radius: 0.2em;
+    padding: 0.5em;
+    background-color: white;
+}
+
+.article-media.float-left {
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.sidebar h1 {
+    padding: 0.5em;
+}

@@ -1,0 +1,38 @@
+@import url("/static/css/reset.css");
+@import url("/static/css/typography.css");
+
+.layout {
+    width: 60em;
+    margin: 0 auto;
+}
+
+html {
+    background-color: #CCC;
+}
+
+.gallery {
+    margin: 2em;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.gallery .item {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    border: 6px solid black;
+    border-radius: 0.2em;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+}
+
+.gallery .item .media {
+    width: 100%;
+    height: auto;
+}

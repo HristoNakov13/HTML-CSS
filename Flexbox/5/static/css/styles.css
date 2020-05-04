@@ -1,0 +1,37 @@
+@import url("/static/css/reset.css");
+@import url("/static/css/typography.css");
+
+.layout {
+    width: 60em;
+    margin: 0 auto;
+}
+
+.site-header {
+    display: flex;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.site-header h1 {
+    flex: 0 0 70%;
+}
+
+.site-header nav {
+    width: 30%;
+}
+
+.header-nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-nav li {
+    display: block;
+}
+
+.header-nav .nav-link {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}

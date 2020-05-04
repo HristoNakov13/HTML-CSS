@@ -1,0 +1,21 @@
+@import url("/static/css/reset.css");
+@import url("/static/css/typography.css");
+
+.layout {
+    width: 60em;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.3em;
+}
